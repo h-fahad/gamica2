@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: #0298fc;
+        }
+
+        header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #logo {
+
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5px;
+
+        }
+
+        #logo div img {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            margin-left: 200px;
+        }
+
+        #name {
+            margin: 11px;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            flex: 2;
+            margin-top: 15px;
+        }
+
+        header ul li {
+            margin-left: 25px;
+        }
+
+        #nav_items {
+            display: flex;
+            flex-wrap: wrap;
+            flex: 1;
+            margin-left: 15%;
+        }
+
+        #login_btn {
+            margin-right: 30%;
+            margin-top: 1%;
+        }
+
+        #login-btn {
+            border: 1px solid #0298fc;
+            padding: 10px 20px;
+            background-color: #0298fc;
+            color: white;
+        }
+
+        #cover {
+            position: relative;
+        }
+
+        #cover img {
+            width: 100%;
+            height: max-content;
+
+        }
+
+        #cover h1 {
+            position: absolute;
+            top: 30%;
+            left: 13%;
+        }
+
+        #CTA-btn {
+            position: absolute;
+            top: 50%;
+            left: 15%;
+            border: 1px solid #0298fc;
+            padding: 16px 50px;
+            background-color: #0298fc;
+            color: white;
+        }
+
+        #navbar {
+            background-color: #0298fc;
+            width: 100%;
+            text-align: center;
+            height: 60px;
+            padding-top: 13px;
+            margin-top: -4px;
+        }
+
+        #navbar ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+
+        #navbar ul li {
+            flex: 1;
+            color: white;
+        }
+
+        #mortage {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #mortage h1 {
+            margin-left: 30%;
+            padding: 18px;
+        }
+
+        #mortage button {
+            height: 45px;
+            border: 1px solid #0298fc;
+            background-color: #0298fc;
+            padding: 2px 48px;
+            width: 200px;
+            margin-top: 14px;
+            color: white;
+        }
+
+        #main {
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 25%;
+            padding-right: 25%;
+
+        }
+
+
+        .content {
+            display: inline-block;
+            text-align: center;
+            width: 32%;
+            border: 1px solid grey;
+            margin: auto;
+
+        }
+
+        .content img {
+            width: 150px;
+            height: 140px;
+        }
+
+        #footer {
+            display: flex;
+            width: 100%;
+            /* justify-content: center; */
+        }
+
+        #footer_img {
+            width: 150%;
+        }
+
+        #footer_img img {
+            width: 100%;
+        }
+
+        #footer_para {
+            background-color: #f8f8f8;
+            padding: 1%;
+        }
+
+        #footer_para p {
+            width: 70%;
+        }
+
+        #footer_para button {
+            height: 45px;
+            border: 1px solid #0298fc;
+            background-color: #0298fc;
+            padding: 2px 48px;
+            width: 200px;
+            margin-top: 4px;
+            color: white;
+        }
+
+        #footer1{
+            background-color: #0298fc;
+            width: 100%;
+            height: 100px;
+        }
+
+        #footer2{
+            background-color: #064684;
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <div id="logo">
+                <div>
+                    <img src="img/Capture.PNG" alt="">
+                </div>
+                <div id="name">
+                    <b> FINANCIAL INSTITUTION</b>
+                </div>
+            </div>
+            <div id="nav_items">
+                <ul>
+                    <li>NAV ITEM</li>
+                    <li>NAV ITEM</li>
+                    <li>NAV ITEM</li>
+                </ul>
+                <div id="login_btn"><Button id="login-btn">LOGIN</Button></div>
+            </div>
+        </header>
+        <div id="cover">
+            <img src="img/cover.jpg" alt="">
+            <h1>Headline Here</h1>
+            <button id="CTA-btn">CTA</button>
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <li>
+                    <i class="fa fa-check" style="font-size:48px;color:white"></i>
+                    FEATURE
+                </li>
+                <li>
+                    <i class="fa fa-check" style="font-size:48px;color:white"></i>
+                    FEATURE
+                </li>
+                <li>
+                    <i class="fa fa-check" style="font-size:48px;color:white"></i>
+                    FEATURE
+                </li>
+                <li>
+                    <i class="fa fa-check" style="font-size:48px;color:white"></i>
+                    FEATURE
+                </li>
+            </ul>
+        </div>
+
+        <div id="mortage" style="text-align: center;">
+            <h1>Mortage Rates as low as 3.995%</h1>
+            <button>LEARN MORE</button>
+        </div>
+
+        <div id="main">
+            <div class="content">
+                <div> <img src="img/Reading-storytelling-with-babies-children-narrow.jpg" alt=""></div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum accusamus molestiae
+                        exercitationem accusantium vitae ipsum. Eveniet culpa illum doloremque repellat exercitationem,
+                        debitis aliquid qui, ad optio magnam a iusto eaque?</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div> <img src="img/investing-for-children.jpg" alt=""></div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum accusamus molestiae
+                        exercitationem accusantium vitae ipsum. Eveniet culpa illum doloremque repellat exercitationem,
+                        debitis aliquid qui, ad optio magnam a iusto eaque?</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div> <img src="img/pic1.jpg" alt=""></div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum accusamus molestiae
+                        exercitationem accusantium vitae ipsum. Eveniet culpa illum doloremque repellat exercitationem,
+                        debitis aliquid qui, ad optio magnam a iusto eaque?</p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer_img"><img src="img/investing-for-children.jpg" alt=""></div>
+            <div id="footer_para">
+                <h1>Heading here</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptate temporibus enim
+                    consectetur
+                    atque nihil pariatur veniam. Provident repudiandae laudantium nobis, iusto corporis earum
+                    consequatur
+                    maxime excepturi at placeat voluptatum.</p>
+                <button>LEARN MORE</button>
+            </div>
+        </div>
+        <footer>
+            <div id="footer1">
+                <h1>CONTACT BRAND</h1>
+                
+            </div>
+            <div id="footer2">
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

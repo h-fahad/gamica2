@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        @keyframes myAnimation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        #parent1 {
+            transition: margin-left 2s linear 0s, background-color 2s linear 0s;
+            color: red !important;
+            width: 100px;
+            height: 100px;
+            border: 4px solid green;
+            /* background-color: green; */
+        }
+        
+        #firstp:hover #parent1 {
+            margin-left: 400px;
+            background-color: pink;
+            /* font-size:5em; */
+        }
+        
+        #fa img {
+            animation: myAnimation 100s linear 0s;
+        }
+        
+        #car img {
+            transition: margin-left 2s linear 0s;
+        }
+        
+        #car:hover img {
+            margin-left: 400px;
+        }
+        
+        #car:hover .wheel {
+            animation: myAnimation 2s linear 0s;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="firstp">
+        <div id="parent1" style="color:blue;border: 2px solid magenta">
+            Apple
+        </div>
+    </div>
+    <div id="fa">
+        <img src="car/fan.png" alt="">
+    </div>
+    <div id="car" style="position: relative;">
+        <img src="car/my-car.png" alt="" style="width: 200px;">
+        <img class="wheel" src="car/wheel.png" alt="" style="position: absolute;
+        width: 25px;
+        top: 53%;
+        left: 33px;">
+        <img class="wheel" src="car/wheel.png" alt="" style="position: absolute;
+        width: 25px;
+        top: 53%;
+        left: 146px;">
+    </div>
+</body>
+
+</html>
