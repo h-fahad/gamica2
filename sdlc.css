@@ -1,0 +1,126 @@
+
+        body {
+            margin: 0px;
+        }
+
+        #main_div {
+            width: 100%;
+            height: 100%;
+            padding: 30px 100px 0px 100px;
+            box-sizing: border-box;
+        }
+
+        #logo_main_div {
+            width: 100%;
+            height: 180px;
+        }
+
+        #logo_div {
+            width: 230px;
+            height: 150px;
+        }
+
+        #logo_div>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #line_div {
+            height: 14px;
+            margin-bottom: 5px;
+            width: 100%;
+            background-color: lightskyblue;
+        }
+
+        #line_2_div {
+            height: 4px;
+            width: 100%;
+            background-color:#0e87be;
+        }
+
+        #side_bar_div {
+            width: 16%;
+            height: 85vh;
+            display: inline-block;
+            background-color: #0e87be;
+        }
+
+        #side_bar_div>ul {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #side_bar_div>ul>li {
+            width: 100%;
+            list-style: none;
+            padding: 10px 0px 10px 5px;
+            color: white;
+            box-sizing: border-box;
+            border-bottom: 2px solid lightblue;
+        }
+
+        #pics_component {
+            width: 83%;
+            height: 100%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #pics_sub_div {
+            width: 100%;
+            height: 50%;
+            display: flex;
+        }
+
+
+        #pics_sub_div>.component_img {
+            height: 200px;
+            width: 300px;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+
+        #pics_sub_div>.component_img>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #pics_sub_div2 {
+            width: 100%;
+            height: 50%;
+            display: flex;
+        }
+
+        #pics_sub_div2>.component_img {
+            height: 200px;
+            width: 300px;
+            padding: 2px;
+            box-sizing: border-box;
+        }
+
+        #pics_sub_div2>.component_img>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #content_div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        #content_div>span:first-child{
+            font-weight:bold;
+            color: lightskyblue;
+        }
+        #content_div>span:last-child{
+            margin-top: 30px;
+        }
+    
